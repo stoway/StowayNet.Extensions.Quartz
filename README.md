@@ -42,8 +42,6 @@ public void ConfigureServices(IServiceCollection services)
     {
         private readonly ILogger<TestJob> _logger;
 
-        public bool StartNow => true;
-
         public string ServiceName => nameof(TestJob);
 
         public string QuartzCronExpression => "*/2 * * * * ?";
