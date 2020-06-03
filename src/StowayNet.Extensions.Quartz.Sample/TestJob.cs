@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace StowayNet.Extensions.Quartz.Sample
 {
-    class TestJob : IQuartzJob
+    class TestJob : StowayNet.Extensions.Quartz.IQuartzJob
     {
         private readonly ILogger<TestJob> _logger;
-
-        public bool StartNow => true;
 
         public string ServiceName => nameof(TestJob);
 
