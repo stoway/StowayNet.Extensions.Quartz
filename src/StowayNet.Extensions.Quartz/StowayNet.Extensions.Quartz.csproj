@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>stoway</Authors>
+    <Company>stoway.net</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>stoway</Copyright>
+    <PackageProjectUrl>https://github.com/stoway/StowayNet.Extensions.Quartz</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stoway/StowayNet.Extensions.Quartz</RepositoryUrl>
+    <PackageReleaseNotes>Release notes are at https://github.com/stoway/StowayNet.Extensions.Quartz/releases</PackageReleaseNotes>
+    <PackageTags>quartz,di,ioc,dependencyinjection</PackageTags>
+    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
