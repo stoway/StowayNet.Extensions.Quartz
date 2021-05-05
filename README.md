@@ -1,7 +1,3 @@
-<p align="center">
-  <img height="80" src="https://s.gravatar.com/avatar/6275a0046443d6fb33421b52e503bc3e?s=140">
-</p>
-
 # StowayNet.Extensions.Quartz
 StowayNet.Extensions.Quartz is an extension of Quartz components, which can support injection dependencies and simple implementation job interface.
 
